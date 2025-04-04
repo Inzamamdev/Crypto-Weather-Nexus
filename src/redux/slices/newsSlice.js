@@ -1,4 +1,4 @@
-import createFetchSlice from "./createFetchSlice";
+import createFetchSlice from "./fetchSlice";
 
 const newsSlice = createFetchSlice("news");
 

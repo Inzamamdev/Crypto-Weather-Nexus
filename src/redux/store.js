@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import weatherReducer from "./weatherSlice";
-import cryptoReducer from "./cryptoSlice";
-import newsReducer from "./newsSlice";
-import preferencesReducer from "./preferencesSlice";
+import weatherReducer from "./slices/weatherSlice";
+import cryptoReducer from "./slices/cryptoSlice";
+import newsReducer from "./slices/newsSlice";
+import preferencesReducer from "./slices/preferenceSlice";
 
 const store = configureStore({
   reducer: {
