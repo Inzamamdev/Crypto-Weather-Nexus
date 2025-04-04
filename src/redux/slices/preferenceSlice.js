@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   favoriteCities: ["New York", "London", "Tokyo"],
-  favoriteCryptos: ["bitcoin", "ethereum", "cardano"],
+  favoriteCryptos: ["bitcoin", "ethereum", "solana"],
 };
 
 const preferencesSlice = createSlice({
